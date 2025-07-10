@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E537B87E2E1E8D7100309C49 /* WhatSoundStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatSoundStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E537B87E2E1E8D7100309C49 /* WhatSoundStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WhatSoundStudy.app; path = "/Users/yeonjin/Documents/Challenge4/WhatSoundStudy/build/Debug-iphoneos/WhatSoundStudy.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				E537B8802E1E8D7100309C49 /* WhatSoundStudy */,
-				E537B87F2E1E8D7100309C49 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E537B87F2E1E8D7100309C49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E537B87E2E1E8D7100309C49 /* WhatSoundStudy.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = E537B8752E1E8D7100309C49;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E537B87F2E1E8D7100309C49 /* Products */;
+			productRefGroup = E537B8752E1E8D7100309C49;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
