@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E537B87E2E1E8D7100309C49 /* WhatSoundStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WhatSoundStudy.app; path = "/Users/yeonjin/Documents/Challenge4/WhatSoundStudy/build/Debug-iphoneos/WhatSoundStudy.app"; sourceTree = "<absolute>"; };
+		E5C4B4EE2E1F48A400F54927 /* WhatSoundStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatSoundStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				E537B8802E1E8D7100309C49 /* WhatSoundStudy */,
+				E5C4B4EE2E1F48A400F54927 /* WhatSoundStudy.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = WhatSoundStudy;
-			productReference = E537B87E2E1E8D7100309C49 /* WhatSoundStudy.app */;
+			productReference = E5C4B4EE2E1F48A400F54927 /* WhatSoundStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
