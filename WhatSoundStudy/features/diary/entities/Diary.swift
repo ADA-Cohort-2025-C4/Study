@@ -9,5 +9,6 @@ struct Diary {
     self.id = id
     self.title = title
       //주석 추가해봤음
+      //주석
   }
 }
