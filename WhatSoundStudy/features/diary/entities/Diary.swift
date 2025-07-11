@@ -8,6 +8,8 @@ struct Diary {
   init(id: UUID = UUID(), title: String) {
     self.id = id
     self.title = title
+
     //주석 추가해봤음
+
   }
 }
