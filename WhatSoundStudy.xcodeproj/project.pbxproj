@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02254C0D2E223663001DE3F8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254C0C2E223663001DE3F8 /* Todo.swift */; };
+		02254C122E223718001DE3F8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254C112E223714001DE3F8 /* TodoView.swift */; };
+		02254C142E224FFE001DE3F8 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254C132E224FF5001DE3F8 /* TodoViewModel.swift */; };
+		02254C162E225007001DE3F8 /* TodoViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254C152E225001001DE3F8 /* TodoViewState.swift */; };
 		E5C4BBC82E20BE6A00F54927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C4BB982E20BE6A00F54927 /* Assets.xcassets */; };
 		E5C4BBC92E20BE6A00F54927 /* BasePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4BB9A2E20BE6A00F54927 /* BasePreview.swift */; };
 		E5C4BBCA2E20BE6A00F54927 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4BB9B2E20BE6A00F54927 /* BaseView.swift */; };
@@ -33,6 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02254C0C2E223663001DE3F8 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		02254C112E223714001DE3F8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		02254C132E224FF5001DE3F8 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		02254C152E225001001DE3F8 /* TodoViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewState.swift; sourceTree = "<group>"; };
 		E5C4B4EE2E1F48A400F54927 /* WhatSoundStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatSoundStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C4BB982E20BE6A00F54927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C4BB9A2E20BE6A00F54927 /* BasePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePreview.swift; sourceTree = "<group>"; };
@@ -60,6 +68,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		02254BFA2E222F72001DE3F8 /* New Folder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
 		E5C4BBE42E20BFD800F54927 /* View */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = View;
@@ -83,6 +96,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02254C0A2E22360C001DE3F8 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				02254C0B2E223618001DE3F8 /* entities */,
+			);
+			path = todo;
+			sourceTree = "<group>";
+		};
+		02254C0B2E223618001DE3F8 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				02254C0C2E223663001DE3F8 /* Todo.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		02254C0E2E2236E5001DE3F8 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				02254C0F2E2236F3001DE3F8 /* View */,
+				02254C102E2236FD001DE3F8 /* ViewModel */,
+			);
+			path = todo;
+			sourceTree = "<group>";
+		};
+		02254C0F2E2236F3001DE3F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02254C112E223714001DE3F8 /* TodoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02254C102E2236FD001DE3F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02254C132E224FF5001DE3F8 /* TodoViewModel.swift */,
+				02254C152E225001001DE3F8 /* TodoViewState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E537B8752E1E8D7100309C49 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C4BB9F2E20BE6A00F54927 /* extensions */,
+				02254BFA2E222F72001DE3F8 /* New Folder */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -144,6 +200,7 @@
 		E5C4BBA42E20BE6A00F54927 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				02254C0A2E22360C001DE3F8 /* todo */,
 				E5C4BBA32E20BE6A00F54927 /* diary */,
 			);
 			path = features;
@@ -252,6 +309,7 @@
 		E5C4BBC42E20BE6A00F54927 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				02254C0E2E2236E5001DE3F8 /* todo */,
 				E5C4BBBA2E20BE6A00F54927 /* diary */,
 				E5C4BBB62E20BE6A00F54927 /* breath */,
 				E5C4BBBF2E20BE6A00F54927 /* home */,
@@ -362,6 +420,7 @@
 				E5C4BBC92E20BE6A00F54927 /* BasePreview.swift in Sources */,
 				E5C4BBCA2E20BE6A00F54927 /* BaseView.swift in Sources */,
 				E5C4BBCB2E20BE6A00F54927 /* BaseViewModel.swift in Sources */,
+				02254C122E223718001DE3F8 /* TodoView.swift in Sources */,
 				E5C4BBCC2E20BE6A00F54927 /* NavigationExtension.swift in Sources */,
 				E5C4BBCD2E20BE6A00F54927 /* Diary.swift in Sources */,
 				E5C4BBCE2E20BE6A00F54927 /* Router.swift in Sources */,
@@ -369,6 +428,8 @@
 				E5C4BBD02E20BE6A00F54927 /* RouterViewState.swift in Sources */,
 				E5C4BBD12E20BE6A00F54927 /* IconButton.swift in Sources */,
 				E5C4BBD22E20BE6A00F54927 /* Layout.swift in Sources */,
+				02254C142E224FFE001DE3F8 /* TodoViewModel.swift in Sources */,
+				02254C0D2E223663001DE3F8 /* Todo.swift in Sources */,
 				E5C4BBD32E20BE6A00F54927 /* Title.swift in Sources */,
 				E5C4BBD42E20BE6A00F54927 /* Toolbar.swift in Sources */,
 				E5C4BBD52E20BE6A00F54927 /* BreathView.swift in Sources */,
@@ -379,6 +440,7 @@
 				E5C4BBDD2E20BE6A00F54927 /* HomeViewState.swift in Sources */,
 				E5C4BBDE2E20BE6A00F54927 /* SplashView.swift in Sources */,
 				E5C4BBDF2E20BE6A00F54927 /* SplashViewModel.swift in Sources */,
+				02254C162E225007001DE3F8 /* TodoViewState.swift in Sources */,
 				E5C4BBE02E20BE6A00F54927 /* SplashVIewState.swift in Sources */,
 				E5C4BBE12E20BE6A00F54927 /* Main.swift in Sources */,
 			);
@@ -515,7 +577,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WL6LTCP7D2;
+				DEVELOPMENT_TEAM = S6ZUM88LTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -523,6 +585,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +606,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WL6LTCP7D2;
+				DEVELOPMENT_TEAM = S6ZUM88LTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -551,6 +614,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
