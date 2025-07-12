@@ -24,6 +24,3 @@ final class TodoViewModel: BaseViewModel<TodoViewState> {
         ))
     }
 }
-
-//상태를 직접 바꾸지않고 기존 state를 복사 후 변경, emit으로 알림!
-//state.copy(...) 는 불변 상태 관리

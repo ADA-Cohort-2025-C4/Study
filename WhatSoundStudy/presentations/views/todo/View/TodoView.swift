@@ -57,5 +57,3 @@ struct TodoView: View {
         TodoView()
     }
 }
-
-//View는 BaseView로 시작하고 creat 속성에서 ViewModel 생성, Preview는 BasePreview로 감싸서 EnvironmentObject를 사용하도록 만듦

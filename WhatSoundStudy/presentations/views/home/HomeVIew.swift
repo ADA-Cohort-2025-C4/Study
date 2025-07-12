@@ -19,6 +19,9 @@ struct HomeView: View {
               router.push(.diary)
             }
           }
+            Tile(title: "Todo", subtitle: "Ari") {
+                router.push(.todo)
+            }
         }
       }
       
