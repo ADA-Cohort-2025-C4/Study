@@ -1,7 +1,7 @@
 //  Copyright © 2025 ADA 4th Challenge4 Practice. All rights reserved.
 import SwiftUI
 
-//Content - 실젲로 화면에 그려질 View, State- 화면 상태 데이터 구조, ViewModel - 상태를 관리하는 ViewModel
+//Content - 실제로 화면에 그려질 View, State- 화면 상태 데이터 구조, ViewModel - 상태를 관리하는 ViewModel
 //Builder- ViewModel 과 State를 받아서 실제로 그릴 View를 생성하는 함수
 typealias Builder<Content, S, VM> = (_ viewModel: VM, _ state: S) -> Content
 
